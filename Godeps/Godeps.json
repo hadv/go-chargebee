@@ -1,0 +1,14 @@
+{
+	"ImportPath": "github.com/hadv/chargebee",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Innovatube/log4go",
+			"Rev": "22d3f163f28e4eac3aabd1c3d2d687228f11b6e2"
+		}
+	]
+}
