@@ -8,6 +8,8 @@ import (
 	"github.com/hadv/chargebee"
 )
 
+// Client is used to invoke /invoices APIs.
+// https://apidocs.chargebee.com/docs/api/invoices
 type Client struct {
 	B   chargebee.Backend
 	Key string

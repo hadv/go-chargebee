@@ -16,8 +16,8 @@ import (
 )
 
 // defaultHTTPTimeout is the default timeout on the http.Client used by the library.
-// This is chosen to be consistent with the other Stripe language libraries and
-// to coordinate with other timeouts configured in the Stripe infrastructure.
+// This is chosen to be consistent with the other Chargebee language libraries and
+// to coordinate with other timeouts configured in the Chargebee infrastructure.
 const defaultHTTPTimeout = 80 * time.Second
 
 // Backend is an interface for making calls against a chargebee service.

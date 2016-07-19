@@ -7,7 +7,8 @@ type Result struct {
 }
 
 // CustomerParams is the set of parameters that can be used when creating or updating a customer.
-// For more details see https://stripe.com/docs/api#create_customer and https://stripe.com/docs/api#update_customer.
+// For more details see https://apidocs.chargebee.com/docs/api/customers#create_a_customer
+// and https://apidocs.chargebee.com/docs/api/customers#update_a_customer.
 type CustomerParams struct {
 	FirstName      string
 	LastName       string

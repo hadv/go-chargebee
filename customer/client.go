@@ -7,6 +7,7 @@ import (
 )
 
 // Client is used to invoke /customers APIs.
+// https://apidocs.chargebee.com/docs/api/customers
 type Client struct {
 	B   chargebee.Backend
 	Key string
